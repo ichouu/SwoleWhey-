@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE25F8A1C59668900962E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F891C59668900962E44 /* AppDelegate.swift */; };
+		3AE25F8C1C59668900962E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F8B1C59668900962E44 /* ViewController.swift */; };
+		3AE25F8F1C59668900962E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F8D1C59668900962E44 /* Main.storyboard */; };
+		3AE25F911C59668900962E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F901C59668900962E44 /* Assets.xcassets */; };
+		3AE25F941C59668900962E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F921C59668900962E44 /* LaunchScreen.storyboard */; };
+		3AE25F9F1C59668900962E44 /* SwoleWheyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F9E1C59668900962E44 /* SwoleWheyTests.swift */; };
+		3AE25FAA1C59668900962E44 /* SwoleWheyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25FA91C59668900962E44 /* SwoleWheyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE25F9B1C59668900962E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE25F7E1C59668800962E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE25F851C59668900962E44;
+			remoteInfo = SwoleWhey;
+		};
+		3AE25FA61C59668900962E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AE25F7E1C59668800962E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE25F851C59668900962E44;
+			remoteInfo = SwoleWhey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AE25F861C59668900962E44 /* SwoleWhey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwoleWhey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE25F891C59668900962E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE25F8B1C59668900962E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE25F8E1C59668900962E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE25F901C59668900962E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE25F931C59668900962E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE25F951C59668900962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE25F9A1C59668900962E44 /* SwoleWheyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwoleWheyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE25F9E1C59668900962E44 /* SwoleWheyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleWheyTests.swift; sourceTree = "<group>"; };
+		3AE25FA01C59668900962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE25FA51C59668900962E44 /* SwoleWheyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwoleWheyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE25FA91C59668900962E44 /* SwoleWheyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleWheyUITests.swift; sourceTree = "<group>"; };
+		3AE25FAB1C59668A00962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE25F831C59668900962E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25F971C59668900962E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25FA21C59668900962E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE25F7D1C59668800962E44 = {
+			isa = PBXGroup;
+			children = (
+				3AE25F881C59668900962E44 /* SwoleWhey */,
+				3AE25F9D1C59668900962E44 /* SwoleWheyTests */,
+				3AE25FA81C59668900962E44 /* SwoleWheyUITests */,
+				3AE25F871C59668900962E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE25F871C59668900962E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE25F861C59668900962E44 /* SwoleWhey.app */,
+				3AE25F9A1C59668900962E44 /* SwoleWheyTests.xctest */,
+				3AE25FA51C59668900962E44 /* SwoleWheyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE25F881C59668900962E44 /* SwoleWhey */ = {
+			isa = PBXGroup;
+			children = (
+				3AE25F891C59668900962E44 /* AppDelegate.swift */,
+				3AE25F8B1C59668900962E44 /* ViewController.swift */,
+				3AE25F8D1C59668900962E44 /* Main.storyboard */,
+				3AE25F901C59668900962E44 /* Assets.xcassets */,
+				3AE25F921C59668900962E44 /* LaunchScreen.storyboard */,
+				3AE25F951C59668900962E44 /* Info.plist */,
+			);
+			path = SwoleWhey;
+			sourceTree = "<group>";
+		};
+		3AE25F9D1C59668900962E44 /* SwoleWheyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE25F9E1C59668900962E44 /* SwoleWheyTests.swift */,
+				3AE25FA01C59668900962E44 /* Info.plist */,
+			);
+			path = SwoleWheyTests;
+			sourceTree = "<group>";
+		};
+		3AE25FA81C59668900962E44 /* SwoleWheyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AE25FA91C59668900962E44 /* SwoleWheyUITests.swift */,
+				3AE25FAB1C59668A00962E44 /* Info.plist */,
+			);
+			path = SwoleWheyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE25F851C59668900962E44 /* SwoleWhey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE25FAE1C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWhey" */;
+			buildPhases = (
+				3AE25F821C59668900962E44 /* Sources */,
+				3AE25F831C59668900962E44 /* Frameworks */,
+				3AE25F841C59668900962E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwoleWhey;
+			productName = SwoleWhey;
+			productReference = 3AE25F861C59668900962E44 /* SwoleWhey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AE25F991C59668900962E44 /* SwoleWheyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE25FB11C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyTests" */;
+			buildPhases = (
+				3AE25F961C59668900962E44 /* Sources */,
+				3AE25F971C59668900962E44 /* Frameworks */,
+				3AE25F981C59668900962E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE25F9C1C59668900962E44 /* PBXTargetDependency */,
+			);
+			name = SwoleWheyTests;
+			productName = SwoleWheyTests;
+			productReference = 3AE25F9A1C59668900962E44 /* SwoleWheyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AE25FA41C59668900962E44 /* SwoleWheyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE25FB41C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyUITests" */;
+			buildPhases = (
+				3AE25FA11C59668900962E44 /* Sources */,
+				3AE25FA21C59668900962E44 /* Frameworks */,
+				3AE25FA31C59668900962E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE25FA71C59668900962E44 /* PBXTargetDependency */,
+			);
+			name = SwoleWheyUITests;
+			productName = SwoleWheyUITests;
+			productReference = 3AE25FA51C59668900962E44 /* SwoleWheyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE25F7E1C59668800962E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eric Chou";
+				TargetAttributes = {
+					3AE25F851C59668900962E44 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3AE25F991C59668900962E44 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AE25F851C59668900962E44;
+					};
+					3AE25FA41C59668900962E44 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3AE25F851C59668900962E44;
+					};
+				};
+			};
+			buildConfigurationList = 3AE25F811C59668800962E44 /* Build configuration list for PBXProject "SwoleWhey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE25F7D1C59668800962E44;
+			productRefGroup = 3AE25F871C59668900962E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE25F851C59668900962E44 /* SwoleWhey */,
+				3AE25F991C59668900962E44 /* SwoleWheyTests */,
+				3AE25FA41C59668900962E44 /* SwoleWheyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE25F841C59668900962E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE25F941C59668900962E44 /* LaunchScreen.storyboard in Resources */,
+				3AE25F911C59668900962E44 /* Assets.xcassets in Resources */,
+				3AE25F8F1C59668900962E44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25F981C59668900962E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25FA31C59668900962E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE25F821C59668900962E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE25F8C1C59668900962E44 /* ViewController.swift in Sources */,
+				3AE25F8A1C59668900962E44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25F961C59668900962E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE25F9F1C59668900962E44 /* SwoleWheyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE25FA11C59668900962E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE25FAA1C59668900962E44 /* SwoleWheyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE25F9C1C59668900962E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE25F851C59668900962E44 /* SwoleWhey */;
+			targetProxy = 3AE25F9B1C59668900962E44 /* PBXContainerItemProxy */;
+		};
+		3AE25FA71C59668900962E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE25F851C59668900962E44 /* SwoleWhey */;
+			targetProxy = 3AE25FA61C59668900962E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AE25F8D1C59668900962E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE25F8E1C59668900962E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE25F921C59668900962E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE25F931C59668900962E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE25FAC1C59668A00962E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE25FAD1C59668A00962E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE25FAF1C59668A00962E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwoleWhey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWhey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AE25FB01C59668A00962E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwoleWhey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWhey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AE25FB21C59668A00962E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwoleWheyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWheyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwoleWhey.app/SwoleWhey";
+			};
+			name = Debug;
+		};
+		3AE25FB31C59668A00962E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwoleWheyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWheyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwoleWhey.app/SwoleWhey";
+			};
+			name = Release;
+		};
+		3AE25FB51C59668A00962E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwoleWheyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWheyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwoleWhey;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3AE25FB61C59668A00962E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwoleWheyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWheyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwoleWhey;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE25F811C59668800962E44 /* Build configuration list for PBXProject "SwoleWhey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE25FAC1C59668A00962E44 /* Debug */,
+				3AE25FAD1C59668A00962E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE25FAE1C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWhey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE25FAF1C59668A00962E44 /* Debug */,
+				3AE25FB01C59668A00962E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AE25FB11C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE25FB21C59668A00962E44 /* Debug */,
+				3AE25FB31C59668A00962E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AE25FB41C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE25FB51C59668A00962E44 /* Debug */,
+				3AE25FB61C59668A00962E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE25F7E1C59668800962E44 /* Project object */;
+}
