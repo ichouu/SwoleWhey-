@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A4B51441C5967D000E504AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4B51431C5967D000E504AF /* LaunchScreen.xib */; };
+		3A4B51461C59684500E504AF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B51451C59684500E504AF /* MasterViewController.swift */; };
+		3A4B51481C59685E00E504AF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B51471C59685E00E504AF /* ProfileViewController.swift */; };
+		3A4B514A1C59687800E504AF /* WorkoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B51491C59687800E504AF /* WorkoutsTableViewController.swift */; };
+		3A4B514C1C59689100E504AF /* AddWorkOutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B514B1C59689100E504AF /* AddWorkOutTableViewController.swift */; };
+		3A4B514E1C5969D100E504AF /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B514D1C5969D100E504AF /* DatePickerCell.swift */; };
+		3A4B51501C5969F200E504AF /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B514F1C5969F200E504AF /* NumberCell.swift */; };
+		3A4B51521C596A2A00E504AF /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4B51511C596A2A00E504AF /* HealthManager.swift */; };
+		3A4B51541C596CF300E504AF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4B51531C596CF300E504AF /* HealthKit.framework */; };
+		3A91C3F71C5C1B8C00AFA6F0 /* Eddy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A91C3F61C5C1B8B00AFA6F0 /* Eddy2.mp3 */; };
+		3AAF94C71C59C497001617C1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF94C61C59C496001617C1 /* SpriteKit.framework */; };
+		3AAF94C91C59C53B001617C1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94C81C59C53B001617C1 /* GameViewController.swift */; };
+		3AAF94CC1C59C747001617C1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94CB1C59C747001617C1 /* GameScene.swift */; };
+		3AAF94CE1C59CDE9001617C1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF94CD1C59CDE9001617C1 /* GameScene.sks */; };
+		3AAF94D01C59CEA8001617C1 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94CF1C59CEA8001617C1 /* RandomFunction.swift */; };
+		3AAF94D41C5ABEAD001617C1 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF94D31C5ABEAD001617C1 /* Photos.framework */; };
+		3AAF94D61C5AC17C001617C1 /* swolefieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94D51C5AC17C001617C1 /* swolefieViewController.swift */; };
+		3AAF94D81C5AC1BB001617C1 /* PhotoThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94D71C5AC1BB001617C1 /* PhotoThumbnail.swift */; };
+		3AAF94DA1C5AC1E5001617C1 /* ViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF94D91C5AC1E5001617C1 /* ViewPhoto.swift */; };
 		3AE25F8A1C59668900962E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F891C59668900962E44 /* AppDelegate.swift */; };
-		3AE25F8C1C59668900962E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F8B1C59668900962E44 /* ViewController.swift */; };
-		3AE25F8F1C59668900962E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F8D1C59668900962E44 /* Main.storyboard */; };
 		3AE25F911C59668900962E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F901C59668900962E44 /* Assets.xcassets */; };
-		3AE25F941C59668900962E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25F921C59668900962E44 /* LaunchScreen.storyboard */; };
 		3AE25F9F1C59668900962E44 /* SwoleWheyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25F9E1C59668900962E44 /* SwoleWheyTests.swift */; };
 		3AE25FAA1C59668900962E44 /* SwoleWheyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE25FA91C59668900962E44 /* SwoleWheyUITests.swift */; };
+		3AE25FBB1C59677200962E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE25FBA1C59677200962E44 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +51,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A4B51431C5967D000E504AF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		3A4B51451C59684500E504AF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3A4B51471C59685E00E504AF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3A4B51491C59687800E504AF /* WorkoutsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsTableViewController.swift; sourceTree = "<group>"; };
+		3A4B514B1C59689100E504AF /* AddWorkOutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkOutTableViewController.swift; sourceTree = "<group>"; };
+		3A4B514D1C5969D100E504AF /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		3A4B514F1C5969F200E504AF /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
+		3A4B51511C596A2A00E504AF /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		3A4B51531C596CF300E504AF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3A4B51551C596CF300E504AF /* SwoleWhey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwoleWhey.entitlements; sourceTree = "<group>"; };
+		3A91C3F61C5C1B8B00AFA6F0 /* Eddy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eddy2.mp3; sourceTree = "<group>"; };
+		3AAF94C61C59C496001617C1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3AAF94C81C59C53B001617C1 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../View Controllers/GameViewController.swift"; sourceTree = "<group>"; };
+		3AAF94CB1C59C747001617C1 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3AAF94CD1C59CDE9001617C1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3AAF94CF1C59CEA8001617C1 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		3AAF94D11C59CF00001617C1 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
+		3AAF94D31C5ABEAD001617C1 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		3AAF94D51C5AC17C001617C1 /* swolefieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swolefieViewController.swift; sourceTree = "<group>"; };
+		3AAF94D71C5AC1BB001617C1 /* PhotoThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoThumbnail.swift; sourceTree = "<group>"; };
+		3AAF94D91C5AC1E5001617C1 /* ViewPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPhoto.swift; sourceTree = "<group>"; };
 		3AE25F861C59668900962E44 /* SwoleWhey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwoleWhey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE25F891C59668900962E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AE25F8B1C59668900962E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AE25F8E1C59668900962E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AE25F901C59668900962E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AE25F931C59668900962E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3AE25F951C59668900962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE25F951C59668900962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		3AE25F9A1C59668900962E44 /* SwoleWheyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwoleWheyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE25F9E1C59668900962E44 /* SwoleWheyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleWheyTests.swift; sourceTree = "<group>"; };
 		3AE25FA01C59668900962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE25FA51C59668900962E44 /* SwoleWheyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwoleWheyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE25FA91C59668900962E44 /* SwoleWheyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleWheyUITests.swift; sourceTree = "<group>"; };
 		3AE25FAB1C59668A00962E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE25FBA1C59677200962E44 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAF94D41C5ABEAD001617C1 /* Photos.framework in Frameworks */,
+				3AAF94C71C59C497001617C1 /* SpriteKit.framework in Frameworks */,
+				3A4B51541C596CF300E504AF /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +113,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AAF94CA1C59C6C5001617C1 /* FlappyEduardo */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF94C81C59C53B001617C1 /* GameViewController.swift */,
+				3AAF94CB1C59C747001617C1 /* GameScene.swift */,
+				3AAF94D11C59CF00001617C1 /* 04B_19__.TTF */,
+				3AAF94CD1C59CDE9001617C1 /* GameScene.sks */,
+				3AAF94CF1C59CEA8001617C1 /* RandomFunction.swift */,
+			);
+			name = FlappyEduardo;
+			path = SwoleWhey/FlappyEduardo;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AAF94D21C5AAF17001617C1 /* Swolfie */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF94D51C5AC17C001617C1 /* swolefieViewController.swift */,
+				3AAF94D71C5AC1BB001617C1 /* PhotoThumbnail.swift */,
+				3AAF94D91C5AC1E5001617C1 /* ViewPhoto.swift */,
+			);
+			path = Swolfie;
+			sourceTree = "<group>";
+		};
 		3AE25F7D1C59668800962E44 = {
 			isa = PBXGroup;
 			children = (
+				3AAF94D31C5ABEAD001617C1 /* Photos.framework */,
+				3AAF94C61C59C496001617C1 /* SpriteKit.framework */,
+				3A4B51531C596CF300E504AF /* HealthKit.framework */,
 				3AE25F881C59668900962E44 /* SwoleWhey */,
 				3AE25F9D1C59668900962E44 /* SwoleWheyTests */,
 				3AE25FA81C59668900962E44 /* SwoleWheyUITests */,
@@ -97,12 +162,17 @@
 		3AE25F881C59668900962E44 /* SwoleWhey */ = {
 			isa = PBXGroup;
 			children = (
+				3AAF94D21C5AAF17001617C1 /* Swolfie */,
+				3AAF94CA1C59C6C5001617C1 /* FlappyEduardo */,
+				3A4B51551C596CF300E504AF /* SwoleWhey.entitlements */,
+				3AE25FB91C5966FF00962E44 /* View Controllers */,
+				3AE25FB81C5966FA00962E44 /* Cells */,
+				3A4B51511C596A2A00E504AF /* HealthManager.swift */,
 				3AE25F891C59668900962E44 /* AppDelegate.swift */,
-				3AE25F8B1C59668900962E44 /* ViewController.swift */,
-				3AE25F8D1C59668900962E44 /* Main.storyboard */,
+				3AE25FBA1C59677200962E44 /* Main.storyboard */,
+				3A4B51431C5967D000E504AF /* LaunchScreen.xib */,
 				3AE25F901C59668900962E44 /* Assets.xcassets */,
-				3AE25F921C59668900962E44 /* LaunchScreen.storyboard */,
-				3AE25F951C59668900962E44 /* Info.plist */,
+				3AE25FB71C5966F000962E44 /* Supporting Files */,
 			);
 			path = SwoleWhey;
 			sourceTree = "<group>";
@@ -123,6 +193,35 @@
 				3AE25FAB1C59668A00962E44 /* Info.plist */,
 			);
 			path = SwoleWheyUITests;
+			sourceTree = "<group>";
+		};
+		3AE25FB71C5966F000962E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A91C3F61C5C1B8B00AFA6F0 /* Eddy2.mp3 */,
+				3AE25F951C59668900962E44 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AE25FB81C5966FA00962E44 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A4B514D1C5969D100E504AF /* DatePickerCell.swift */,
+				3A4B514F1C5969F200E504AF /* NumberCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3AE25FB91C5966FF00962E44 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A4B51451C59684500E504AF /* MasterViewController.swift */,
+				3A4B51471C59685E00E504AF /* ProfileViewController.swift */,
+				3A4B51491C59687800E504AF /* WorkoutsTableViewController.swift */,
+				3A4B514B1C59689100E504AF /* AddWorkOutTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +292,12 @@
 				TargetAttributes = {
 					3AE25F851C59668900962E44 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R6DX8Y7VKT;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					3AE25F991C59668900962E44 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,9 +334,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE25F941C59668900962E44 /* LaunchScreen.storyboard in Resources */,
+				3AAF94CE1C59CDE9001617C1 /* GameScene.sks in Resources */,
+				3AE25FBB1C59677200962E44 /* Main.storyboard in Resources */,
+				3A91C3F71C5C1B8C00AFA6F0 /* Eddy2.mp3 in Resources */,
+				3A4B51441C5967D000E504AF /* LaunchScreen.xib in Resources */,
 				3AE25F911C59668900962E44 /* Assets.xcassets in Resources */,
-				3AE25F8F1C59668900962E44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +363,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE25F8C1C59668900962E44 /* ViewController.swift in Sources */,
+				3AAF94CC1C59C747001617C1 /* GameScene.swift in Sources */,
+				3A4B51521C596A2A00E504AF /* HealthManager.swift in Sources */,
 				3AE25F8A1C59668900962E44 /* AppDelegate.swift in Sources */,
+				3AAF94C91C59C53B001617C1 /* GameViewController.swift in Sources */,
+				3A4B514A1C59687800E504AF /* WorkoutsTableViewController.swift in Sources */,
+				3A4B514C1C59689100E504AF /* AddWorkOutTableViewController.swift in Sources */,
+				3AAF94D81C5AC1BB001617C1 /* PhotoThumbnail.swift in Sources */,
+				3A4B51501C5969F200E504AF /* NumberCell.swift in Sources */,
+				3A4B51481C59685E00E504AF /* ProfileViewController.swift in Sources */,
+				3A4B51461C59684500E504AF /* MasterViewController.swift in Sources */,
+				3AAF94D01C59CEA8001617C1 /* RandomFunction.swift in Sources */,
+				3AAF94DA1C5AC1E5001617C1 /* ViewPhoto.swift in Sources */,
+				3AAF94D61C5AC17C001617C1 /* swolefieViewController.swift in Sources */,
+				3A4B514E1C5969D100E504AF /* DatePickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +410,6 @@
 			targetProxy = 3AE25FA61C59668900962E44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3AE25F8D1C59668900962E44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AE25F8E1C59668900962E44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3AE25F921C59668900962E44 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AE25F931C59668900962E44 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AE25FAC1C59668A00962E44 /* Debug */ = {
@@ -397,10 +497,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwoleWhey/SwoleWhey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwoleWhey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWhey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.CodingDojoProject.SwoleWhey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +512,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwoleWhey/SwoleWhey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SwoleWhey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.SwoleWhey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericchou.CodingDojoProject.SwoleWhey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +590,7 @@
 				3AE25FB01C59668A00962E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE25FB11C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +599,7 @@
 				3AE25FB31C59668A00962E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE25FB41C59668A00962E44 /* Build configuration list for PBXNativeTarget "SwoleWheyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +608,7 @@
 				3AE25FB61C59668A00962E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
